@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.winter.rage.dream.CommonTest;
 import org.winter.rage.dream.pojo.dto.SqlFieldAnalyticResult;
 import org.winter.rage.dream.pojo.vo.common.CommonResponse;
+import org.winter.rage.dream.service.analysis.SqlAnalysisService;
 
 import javax.annotation.Resource;
 

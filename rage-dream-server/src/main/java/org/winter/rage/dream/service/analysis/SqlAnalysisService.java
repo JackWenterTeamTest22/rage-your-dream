@@ -1,4 +1,4 @@
-package org.winter.rage.dream.service;
+package org.winter.rage.dream.service.analysis;
 
 import org.winter.rage.dream.pojo.dto.SqlFieldAnalyticResult;
 import org.winter.rage.dream.pojo.vo.common.CommonResponse;

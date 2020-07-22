@@ -1,4 +1,4 @@
-package org.winter.rage.dream.service.impl;
+package org.winter.rage.dream.service.analysis.impl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,7 +8,7 @@ import org.winter.rage.dream.enums.EnumSelectStage;
 import org.winter.rage.dream.pojo.dto.FieldExtraDto;
 import org.winter.rage.dream.pojo.dto.SqlFieldAnalyticResult;
 import org.winter.rage.dream.pojo.vo.common.CommonResponse;
-import org.winter.rage.dream.service.SqlAnalysisService;
+import org.winter.rage.dream.service.analysis.SqlAnalysisService;
 
 import java.util.ArrayList;
 import java.util.List;
