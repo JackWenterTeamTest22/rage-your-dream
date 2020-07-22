@@ -2,10 +2,11 @@ package org.winter.rage.dream;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-import org.springframework.context.annotation.ImportResource;
 
 /**
  * @ClassName: RageDreamApplication
@@ -14,7 +15,7 @@ import org.springframework.context.annotation.ImportResource;
  * @Date 2020/7/21 3:28 PM
  **/
 @SpringBootApplication(scanBasePackages = {"org.winter.rage.dream"})
-@ImportResource(locations={""})
+@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 @Slf4j
 public class RageDreamApplication extends SpringBootServletInitializer {
     public static void main(String[] args) {

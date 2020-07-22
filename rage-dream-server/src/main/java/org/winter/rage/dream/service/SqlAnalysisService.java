@@ -1,5 +1,8 @@
 package org.winter.rage.dream.service;
 
+import org.winter.rage.dream.pojo.dto.SqlFieldAnalyticResult;
+import org.winter.rage.dream.pojo.vo.common.CommonResponse;
+
 /**
  * @ClassName: SqlAnalysisService
  * @Description:
